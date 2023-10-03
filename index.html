@@ -12,7 +12,7 @@
 		<div class="logo-border">
 			<img src="content/logo.png" alt="Logo" class="logo"> 
 		</div> 
-		<div>
+		<div class="github">
 			<a href="https://www.github.com/zephyrusgreene">
 				<span>
 					<svg width="4em" height="4em" viewBox="0 0 16 16">
@@ -25,10 +25,25 @@
 	
 	<div class="container" >
 		<div class="centered">
-			<h1>Hi there, I'm Jacob. Nice to meet you.</h1>
-			<div>I am a full-stack web developer that also dabbles in game design and development in my free time.</div>
-			<div>I love to code and see a project come to fruition.</div>
-			<div>I enjoy learning new things. And I really like pizza.</div>
+			<div class="mobile-hide">
+				<h1>Hi there, I'm Jacob. Nice to meet you.</h1>
+				<div>I am a full-stack web developer that also dabbles in game 
+					design and development in my free time.
+				</div>
+				<div>I love to code and see a project come to fruition.</div>
+				<div>I enjoy learning new things. And I really like pizza.</div>
+			</div>
+			<div class="mobile-show">			
+				<h1 class="no-margin-bot">Hi there, I'm Jacob.</h1>
+				<h1 class="no-margin-top">Nice to meet you.</h1>
+				<div>
+					I am a full-stack web developer that also dabbles in 
+					game design and development in my free time.
+					I love to code and see a project come to fruition.
+					I enjoy learning new things. And I really like pizza.
+				</div>
+			</div>
+			
 		</div>
 	</div>
 	
@@ -37,13 +52,26 @@
 	<div class="container">
 		<div class="centered">
 			<h2>Salt & Zephyr</h2>
-			<div>Years ago I modded a game. I released that mod under my github name Zephyr Greene.</div>
-			<div>Over time working on the mod and playing the game, I grew to be a part of Salt and Sanctuary's little community.</div>
-			<div>I was able to participate in the sequel's pre-release playtesting.</div>
-			<div>And I was even hired by Ska Studios to maintain the game itself.</div>
-			<br/>
-			<div>I'm now listed in the credits of both games!</div>
-			<br/>
+			<div class="mobile-show">
+				<div>
+					Years ago I modded a game. 
+					I released that mod under my github name Zephyr Greene.
+					Over time working on the mod and playing the game, I grew to
+					be a part of Salt and Sanctuary's little community. 
+					I was able to participate in the sequel's pre-release playtesting.
+					And I was even hired by Ska Studios to maintain the game itself.
+				</div>
+				<br/>
+				<div>I'm now listed in the credits of both games!</div>
+			</div> 
+			<div class="mobile-hide">
+				<div>Years ago I modded a game. I released that mod under my github name Zephyr Greene.</div>
+				<div>Over time working on the mod and playing the game, I grew to be a part of Salt and Sanctuary's little community.</div>
+				<div>I was able to participate in the sequel's pre-release playtesting.</div>
+				<div>And I was even hired by Ska Studios to maintain the game itself.</div>
+				<br/>
+				<div>I'm now listed in the credits of both games!</div>
+			</div> 
 			
 		</div>
 	</div>
@@ -52,9 +80,15 @@
 	
 	<div class="container">
 		<div class="centered">
-			<h2>Contact & Socials</h2>			
-			<div>For business and personal contact please use email.</div>
-			<div>You can also follow me on Twitter and Youtube.</div>
+			<h2>Contact & Socials</h2>		
+			<div class="mobile-hide">			
+				<div>For business and personal contact please use email.</div>
+				<div>You can also follow me on Twitter and Youtube.</div>
+			</div>
+			<div> 
+				For business and personal contact please use email.
+				You can also follow me on Twitter and Youtube.
+			</div>
 			<ul class="box">
 				<li>
 					<a href="mailto:ZephyrusGreene@gmail.com">
