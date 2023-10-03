@@ -74,14 +74,14 @@ a {
 }
 
 .icon-twitter {
-	max-height: 16px;
-	max-width: 16px;
+	max-height: 1em;
+	max-width: 1em;
 	font-size: 1em;
 }
 
 li {
 	list-style: none;
-	font-size: 15px;
+	font-size: 1em;
 	padding: 2em;
 }
 
