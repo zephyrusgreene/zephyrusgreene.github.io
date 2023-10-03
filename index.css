@@ -13,6 +13,8 @@ a {
 	margin: auto;
 	content: left;
 	max-width: 1200px;
+	justify-content: space-between;
+	display: flex;
 }
 
 .logo-border { 
@@ -24,12 +26,31 @@ a {
 }
 
 .container {
-  margin: auto;
-  max-width: 800px; 
-  padding: 10px;
-  content: center;
-  height: 50vh;
-  
+  margin: auto; 
+  padding: 2em; 
+}
+
+@media screen and (max-width: 600px) {
+	.container { 
+		min-width: 100vw; 
+		max-width: 100vw; 
+		height: 25vh;
+	}
+}
+
+@media screen and (min-width: 768px and max-width: 959px) {
+	.container {  
+		min-width: 100vw; 
+		max-width: 100vw; 
+		height: 30vh; 
+	}
+}
+
+@media screen and (min-width: 960px) {
+	.container {  
+		max-width: 800px;
+		height: 50vh; 
+	}
 }
 
 .centered {
@@ -37,11 +58,11 @@ a {
 }
 
 .line-break {
-		border-style: solid; 
-		border-top: 0px;
-		border-left: 0px;
-		border-right: 0px;
-		border-color: #e8e8e8;
+	border-style: solid; 
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-color: #e8e8e8;
 }
 
 .blue {
@@ -70,6 +91,3 @@ li {
   justify-content: center;
 }
 
-@media screen and (min-width 800px) {
-	
-}
